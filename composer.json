@@ -1,0 +1,23 @@
+{
+    "name": "raufabbas/payriff",
+    "description": "Payriff payment gateway package for php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Payriff\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rauf Abbas",
+            "email": "rafo.abbas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.2"
+    }
+}
