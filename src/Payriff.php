@@ -34,7 +34,7 @@ class Payriff implements CreateOrder
      */
     public string $baseUrl = 'https://api.payriff.com/api/v1/';
 
-    public const SUCCESS = 00000;
+    public const SUCCESS = "00000";
     public const WARNING = "01000";
     public const ERROR = "15000";
     public const INVALID_PARAMETERS = "15400";
