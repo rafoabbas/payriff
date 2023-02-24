@@ -1,7 +1,15 @@
 # Payriff payment gateway package for php
 
+
+## installation
+``
+composer require raufabbas/payriff
+``
+
+
 ### Create new order
     
+
 ```php
 use Payriff\Payriff;
 

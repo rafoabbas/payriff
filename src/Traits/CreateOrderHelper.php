@@ -23,7 +23,7 @@ trait CreateOrderHelper
             "language" => $language
         ]);
 
-        if ($response['code'] === $this::SUCCESS) {
+        if ($response['code'] == $this::SUCCESS) {
             return $response;
         }
 
